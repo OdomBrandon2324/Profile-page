@@ -1,0 +1,194 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    padding-left: 30px;
+}
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 25px;
+    width: 80px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+
+/* End of Nav bAr */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card_top {
+    background-color: rgb(30, 206, 197);
+
+}
+.father{
+    margin-right: 80px;
+}
+#profile-pic {
+    width: 40px;
+    border: 2px solid white;
+    outline: 2px solid gray;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.card_body {
+    border: 2px solid grey;
+    border-top: none;
+    padding: 15px;
+}
+.marker {
+    height: 20px;
+}
+
+.gear {
+    width: 20px;
+}
+
+.blueboxx {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+}
+
+
+.discription {
+    line-height: 15px;
+    padding: 2px;
+}
+#link {
+    color: blue;
+}
+.whole_e{
+    margin-top: 30px;
+}
+.education {
+
+    background-color: gray;
+    width: 370px;
+    height: 30px;
+    color: white;
+
+
+
+}
+
+
+
+
+
+
+
+
+.lowerlower {
+    border: 2px solid gray;
+    width: 365px;
+
+
+}
+
+.educationcoding { 
+
+}
+
+
+.longbox{
+    height: 320px;
+    outline: #cccccc solid;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.rightbox{
+    width: 230px;
+    height: 200px;
+    outline: #cccccc solid;
+
+}
+
+.requests_names > img{
+    border-radius: 50%;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.user_names{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    
+
+}
+.user_names > img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+
+.requests_names{
+    display:flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.connections_header{
+    background-color: grey;
+    height: 30px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.extra_box{
+    margin: 0 auto;
+    outline: #cccccc solid;
+    height: 30px;
+    width: 250px;
+    padding-top: 10px;
+}
+#view_more{
+    padding-left: 5px;
+    color: blue;
+    text-decoration: underline;
+}
+
